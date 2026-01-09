@@ -1,1 +1,136 @@
 # Q2-Skills-Test
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2-Skills Test</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="OBMC LOGO 2024-Circle.png" alt="logo" height="50px">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link">Enroll Form</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <h1>OBMC Student Enrollment Form</h1>
+  <h6>Please fill out this form </h6>
+
+ <!-- Enrollment Form -->
+  <div class="form-card">
+<div class="container mt-4 mb-5">
+        <div class="card-body">
+        
+
+            <form>
+
+                <!-- Student Information -->
+                <h2 class="mb-3">Student Information</h2>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="John">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Doe">
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label class="form-label">Birth Date</label>
+                        <input type="date" class="form-control">
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <label class="form-label">Gender</label>
+                        <select class="form-control">
+                            <option>Select...</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+    
+                       <div class="col-md-4 mb-3">
+                        <label class="form-label">Grade Level</label>
+                        <select class="form-control">
+                            <option>Select...</option>
+                            <option>Grade 7</option>
+                            <option>Grade 8</option>
+                            <option>Grade 9</option>
+                            <option>Grade 10</option>
+                        </select>
+                    </div>
+                </div>
+
+                <hr>
+    <!-- Contact Details -->
+                <h2 class="mb-3">Contact Details</h2>
+
+                <div class="mb-3">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-control" placeholder="student@example.com">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Contact Number</label>
+                    <input type="tel" class="form-control" placeholder="0912-345-6789">
+                </div>
+
+                <hr>
+
+                <!-- Other Information -->
+                <h2 class="mb-3">Other Information</h2>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="mode">
+                    <label class="form-check-label">Online</label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="radio" name="mode">
+                    <label class="form-check-label">Face-to-Face</label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label">
+                        I confirm that the information provided is true and complete.
+                    </label>
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">
+                       Submit Enrollment
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
